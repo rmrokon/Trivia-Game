@@ -1,0 +1,68 @@
+.containerBackground {
+    margin-top: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(55, 55, 55, 0.757), rgba(28, 103, 184, 0.729));
+}
+
+.title {
+    font-size: 5vw;
+    color: rgb(237, 241, 241);
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+}
+
+.correctAnswer {
+    background-color: lightgreen;
+}
+
+.IncorrectAnswer {
+    background-color: rgba(249, 60, 60, 0.816);
+}
+
+.question {
+    font-family: monospace;
+    font-size: 32px;
+    color: white;
+}
+
+.answerInputBox {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid slategrey;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+
+.submitButton {
+    width: 30%;
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.submitButton:hover {
+    background-color: green;
+}
